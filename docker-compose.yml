@@ -1,0 +1,8 @@
+services:
+    axum-jinja-template:
+        container_name: axum-jinja-template
+        build:
+            context: .
+        ports:
+            - "127.0.0.1:3511:3511"
+        restart: always
